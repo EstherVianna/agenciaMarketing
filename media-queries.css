@@ -1,0 +1,175 @@
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+    }
+    .logo h1{
+        font-size: 1.4rem;
+        margin-left: 0;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .menu-1{
+        font-size: 1rem;
+        padding: none;
+        margin: 2px;
+    }
+
+    .botao-menu{
+        margin-left: 0;
+        margin-right: 0;
+        padding: none;
+        text-align: center;
+    }
+
+    .botao-menu:hover{
+        margin-left: 0;
+        margin-right: 0;
+        padding: none;
+        text-align: center;
+    }
+    
+    .foto{
+        display: none;
+    }
+
+    .card{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .c{
+        margin-bottom: 50px;
+    }
+
+    .footer{
+        top: 100px;
+    }
+
+} 
+
+@media only screen and (max-width: 992px){
+    .navbar{
+        display: flex;
+    }
+
+    .logo h1{
+        font-size: 1.7rem;
+        margin-left: 10px;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-right: 0;
+        padding: 0;    
+    }
+
+    .botao-menu{
+        margin-left: 0;
+        margin-right: 0;
+        padding: none;
+        text-align: center;
+    }
+
+    .botao-menu:hover{
+        margin-left: 0;
+        margin-right: 0;
+        padding: none;
+        text-align: center;
+    }
+
+    .foto{
+        display: none;
+    }
+
+    .card{
+        border-radius: 10px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .c{
+        margin-bottom: 150px;
+    }
+
+    .footer{
+        top: 140px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar{
+        display: flex;
+    }
+
+    .logo h1{
+        font-size: 2.3rem;
+        margin-left: 20px;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-right: 10px;
+        padding: 0;    
+    }
+
+    .botao-menu{
+        margin-left: 0;
+        margin-right: 0;
+        padding: none;
+        text-align: center;
+    }
+    
+    .foto{
+        display: none;
+    }
+
+    .espaçamento-linha{
+        color: #180F4A;
+        font-size: 80px;
+        font-weight: bolder;
+        word-spacing: 600px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .botao-menu:hover{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px 30px;
+        text-align: center;
+    }
+
+    section{
+        display: inline-block;
+        height: 660px;
+        width: 90%;
+        padding-top: 130px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .card{
+        max-width: 40%;
+        height: max-content;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer{
+        top: 100px;
+    }
+    
+}
